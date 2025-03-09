@@ -1,0 +1,33 @@
+{
+  "name": "telegram-deletion-tool",
+  "version": "1.0.0",
+  "description": "A tool to delete Telegram conversations including private chats, groups, and channels",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "delete-all": "node index.js --all",
+    "delete-chats": "node index.js --chats",
+    "delete-groups": "node index.js --groups",
+    "delete-channels": "node index.js --channels",
+    "interactive": "node index.js --interactive"
+  },
+  "keywords": [
+    "telegram",
+    "delete",
+    "chat",
+    "group",
+    "channel",
+    "cleanup"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "dotenv": "^16.3.1",
+    "input": "^1.0.1",
+    "inquirer": "^8.2.5",
+    "node-telegram-bot-api": "^0.64.0",
+    "ora": "^5.4.1",
+    "yargs": "^17.7.2"
+  }
+} 
